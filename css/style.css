@@ -83,3 +83,16 @@ ol,ul {
     color: var(--color_blanco);
     font-weight: bold;
 }
+
+@media (min-width:768px){
+    .label_hamburguesa{
+        display: none;
+    }
+    .ul_links{
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
