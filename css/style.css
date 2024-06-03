@@ -33,6 +33,8 @@ ol,ul {
 }
 .navbar {
     height: 100%;
+    width: min(1200px, 100%);
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,9 +54,9 @@ ol,ul {
 .logo {
     color: var(--color_blanco);
 }
-.label_hamburguesa {
+/* .label_hamburguesa {
 
-}
+} */
 .list_icon {
     color: var(--color_blanco);
     cursor: pointer;
@@ -94,5 +96,13 @@ ol,ul {
         height: auto;
         flex-direction: row;
         gap: 1rem;
+    }
+    .links {
+        font-size: 1.2rem;
+        transition: all .3s;
+        padding: .2rem .7rem;
+    }
+    .links:hover {
+        background-color: #5f1192;
     }
 }
