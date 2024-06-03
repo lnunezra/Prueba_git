@@ -64,6 +64,7 @@ ol,ul {
     background-color: var(--color_primario_suave);
     position: absolute;
     top: var(--altura_header);
+    left: 0;
     /* height: calc(100vh - var(--altura_header)); */
     height: 0;
     overflow: hidden;
@@ -72,6 +73,7 @@ ol,ul {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    transition: all .3s;
 }
 .li_links {
 
