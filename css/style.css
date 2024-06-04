@@ -31,6 +31,7 @@ ol,ul {
     height: var(--altura_header);
     background-color: var(--color_primario);
 }
+
 .navbar {
     height: 100%;
     width: min(1200px, 100%);
@@ -77,9 +78,7 @@ ol,ul {
     gap: 3rem;
     transition: all .3s;
 }
-.li_links {
 
-}
 .links {
     font-size: 3em;
     color: var(--color_blanco);
